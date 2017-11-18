@@ -24,6 +24,7 @@
     <sprite>sprites\spr_sloper_right</sprite>
     <sprite>sprites\spr_ladder_climb</sprite>
     <sprite>sprites\spr_Mini_Platform_Move</sprite>
+    <sprite>sprites\spr_platform_moving</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -31,14 +32,11 @@
     <script>scripts\src_instance_on_way.gml</script>
     <script>scripts\src_instance_on_spring.gml</script>
     <script>scripts\src_instance_on_climb.gml</script>
-    <script>scripts\src_instance_on_platform_right.gml</script>
   </scripts>
   <objects name="objects">
     <objects name="PAR">
       <object>objects\par_sloper_right</object>
       <object>objects\par_sloper_left</object>
-      <object>objects\par_platform_right</object>
-      <object>objects\par_platform_down</object>
       <object>objects\par_block</object>
       <object>objects\par_player</object>
       <object>objects\par_sloper</object>
@@ -62,6 +60,7 @@
     </objects>
     <object>objects\obj_platform_move_right</object>
     <object>objects\obj_platform_move_down</object>
+    <object>objects\obj_spr_platform_moving</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room1</room>
